@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VR Consulting",
-  description: "VR Consulting website.",
+  title: "",
+  description: "",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

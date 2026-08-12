@@ -1,4 +1,4 @@
-# VR Consulting Website
+# Website
 
 A Next.js website starter using the app router, TypeScript, Tailwind CSS, and ESLint.
 
