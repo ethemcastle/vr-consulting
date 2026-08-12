@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/generate-static-html-module.mjs && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "node scripts/generate-static-html-module.mjs && eslint"
   },
   "dependencies": {
     "next": "16.3.0",

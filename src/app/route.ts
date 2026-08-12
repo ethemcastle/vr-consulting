@@ -1,13 +1,9 @@
-import { readFile } from "node:fs/promises";
-import path from "node:path";
+import { vrConsultingHomeHtml } from "@/generated/vr-consulting-home";
 
 export const dynamic = "force-static";
 
 export async function GET() {
-  const htmlPath = path.join(process.cwd(), "public", "vr-consulting-home.html");
-  const html = await readFile(htmlPath, "utf8");
-
-  return new Response(html, {
+  return new Response(vrConsultingHomeHtml, {
     headers: {
       "content-type": "text/html; charset=utf-8",
     },
