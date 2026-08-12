@@ -74,6 +74,27 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <link rel='stylesheet' id='gutenverse-frontend-icon-css' href='wp-content/plugins/gutenverse-form/lib/framework/assets/dist/frontend-icon.css%3Fver=2.1.2.css' media='all' />
 <link rel="https://api.w.org/" href="http://vr-consulting.al/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://vr-consulting.al/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 7.0.3" />
+<style id="brand-removal-css">
+.gutenverse-nav-logo,
+.gutenverse-nav-logo::before,
+.gutenverse-nav-logo::after,
+.gutenverse-nav-logo img,
+img[src*="logo"],
+img[alt*="Zeever"],
+img[alt*="VR Consulting"] {
+	display: none !important;
+	background: none !important;
+	content: none !important;
+	width: 0 !important;
+	height: 0 !important;
+	min-width: 0 !important;
+	min-height: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+	overflow: hidden !important;
+}
+</style>
 </head>
 
 <body class="home blog wp-embed-responsive wp-theme-zeever">
